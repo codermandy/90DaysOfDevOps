@@ -1,4 +1,5 @@
 This is first feature of our application
 After bug fixing, this is the new feature with minor alteration
 This is the advancement of previous feature
+Added few more changes to make it more optimized.
 Feature 2 is completed and ready for release.
