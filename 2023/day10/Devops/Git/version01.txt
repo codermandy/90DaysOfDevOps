@@ -1,1 +1,2 @@
 This is first feature of our application
+After bug fixing, this is the new feature with minor alteration
