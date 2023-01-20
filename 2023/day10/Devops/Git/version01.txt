@@ -4,4 +4,6 @@ This is the advancement of previous feature
 This is the advancement of previous feature
 Added few more changes to make it more optimized.
 This is first feature of our application
-Feature 2 is completed and ready for release
+Feature 2.1 is completed and ready for release
+Feature 2.2 is completed and ready for release.
+This is the bug fix in production branch

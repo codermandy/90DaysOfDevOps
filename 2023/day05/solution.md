@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 1. Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
+=======
+Write a bash script createDirectories.sh that when the script is executed with three given arguments (one is directory name and second is start number of directories and third is the end number of directories ) it creates specified number of directories with a dynamic directory name.
+>>>>>>> 0ac3be2 (Added feature2.1 in development branch)
 
 [completed task 1](task01.sh)
 
@@ -8,6 +12,7 @@
 3) Read About Cron and Crontab, to automate the backup Script
 - ``` Cron is the system's main scheduler for running jobs or tasks unattended. A command called crontab allows the user to submit, edit or delete entries to cron. A crontab file is a user file that holds the scheduling information.```
 
+<<<<<<< HEAD
 -  ````20 13 * * * /home/mohitk/backupScript.sh  ````
 
  4) Read about User Management and Let me know on Linkedin if you're ready for Day 6. 
@@ -25,3 +30,6 @@
     do 
     sudo useradd $i;
     done
+=======
+-  ````20 13 * * * /home/mohitk/backupScript.sh  ````
+>>>>>>> 0ac3be2 (Added feature2.1 in development branch)

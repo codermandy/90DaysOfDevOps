@@ -23,5 +23,9 @@ drwxrwxr-x 2 mohitk mohitk 4096 Jan 17 12:56 backupScripts
 drwxrwxr-x 2 mohitk mohitk 4096 Jan 18 00:46 scripts
 -rw-rw-r-- 1 mohitk mohitk   16 Jan 21 00:03 user_list.txt
 -rw-rw-r-- 1 mohitk mohitk    0 Jan 21 00:14 file
+<<<<<<< HEAD
 ````
 
+=======
+````
+>>>>>>> 0ac3be2 (Added feature2.1 in development branch)

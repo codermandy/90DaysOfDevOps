@@ -11,6 +11,7 @@ Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
 #!/bin/bash
 echo "I will complete #90DaysOofDevOps challenge"
 ````
+<<<<<<< HEAD
 Write a Shell Script to take user input, input from arguments and print the variables.
 Write an Example of If else in Shell Scripting by comparing 2 numbers 
 ````
@@ -22,3 +23,5 @@ else
         echo "$2 is second number which is  greater"
 fi`
 ````
+=======
+>>>>>>> 0ac3be2 (Added feature2.1 in development branch)
