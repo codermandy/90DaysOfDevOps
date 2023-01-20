@@ -5,10 +5,10 @@
 #last update: 17-01-2023
 
 #specify the source directory where backup should be taken
-source_dir="/home/mohitk/scripts"
+source_dir="/home/$USER/scripts"
 
 #specify the location where to store backup
-target_dir="/home/mohitk/backupScripts"
+target_dir="/home/$USER/backupScripts"
 mkdir -p $target_dir
 
 #get the date to use in backup file name

@@ -2,6 +2,7 @@
 #author:Mohit K
 #purpose: create folders as per command arguments
 #date: 06-01-2023
+#last update: 16-01-2023
 
 #declare variable `dirname`
 dirname=$1
