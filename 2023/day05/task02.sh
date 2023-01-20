@@ -1,30 +1,21 @@
 #!/bin/bash
 #author:Mohit K
-#purpose: create folders as per command arguments
+#purpose: create a backup script
 #date: 06-01-2023
-#assignment:05
+#last update: 17-01-2023
 
-dirname=$1
+#specify the source directory where backup should be taken
+source_dir="/home/mohitk/scripts"
 
-if [ $# = 1 ]; then
-        mkdir $1
+#specify the location where to store backup
+target_dir="/home/mohitk/backupScripts"
+mkdir -p $target_dir
 
+#get the date to use in backup file name
+date=$(date +"%d-%m-%Y")
 
-elif [ $# = 2 ]; then
-        firstarg=$2
+#create backup file with current date in file name
+tar -zvcf $target_dir/backup_$date.tar.gz $source_dir
 
-for ((n=1;n<=$firstarg;n++));
-
-do
-        mkdir $dirname$n
-done
-
-elif [ $# = 3 ]; then
-        secarg=$3
-        for((n=firstarg;n<=secarg;n++));
-        do
-                mkdir $dirname$n
-        done
-else
-        echo "Invalid arguments"
-fi
+#confirm if backup was created
+        echo "Backup created in $target_dir/backup_$date.tar.gzip"
