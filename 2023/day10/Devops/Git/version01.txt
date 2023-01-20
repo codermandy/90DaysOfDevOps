@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 This is first feature of our application
 After bug fixing, this is the new feature with minor alteration
 This is the advancement of previous feature
 Added few more changes to make it more optimized.
 Feature 2 is completed and ready for release.
 This is the bug fix in development branch
+=======
+This is the bug fix in development branch
+This is gadbad code
+This feature will gadbad everything from now
+>>>>>>> parent of 0c9f615 (added new feature)
