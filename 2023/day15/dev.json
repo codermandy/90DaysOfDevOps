@@ -1,0 +1,17 @@
+{
+    "name": "Mohit Kamra",
+"place": "India",
+"skills": [
+    "Linux",
+    "Python",
+    "Docker",
+    "Kubernetes",
+    "Jenkins"]
+,
+"email": "kamramohit96@gmail.com",
+"project":[ 
+"Annual Rainfall Prediciton",
+"Static Website",
+"Deployment project"
+]
+}

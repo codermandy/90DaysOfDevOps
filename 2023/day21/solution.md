@@ -35,22 +35,25 @@ Q5) Explain the Docker components and how they interact with each other.
     
 Q6)Explain the terminology: Docker Compose, Docker File, Docker Image, Docker Container?
 
-- ``Docker Compose: 
+- Docker Compose: 
 When we create a Dockerfile it just creates for a single container. If we want to create multiple containers then we need to create a single yaml file which can create multiple containers. 
-For that Docker compose is a tool which helps in running of multi-container applications. 
-``
-- ``Dockerfile: 
+For that Docker compose is a tool which helps in running of multi-container applications.
+- Dockerfile: 
 It is a simple text file with instruction to build a DockerImage. After creating the Docker Image we can create a DockerContainer. After building the Docker Container through the Dockerfile we need to run the container
-    ```
+```
     FROM ubuntu
     MAINTAINER YOUR_NAME <YOUR_EMAIL_ID>
     RUN apt-get update
     CMD ["echo", "Hello Geeks!"]
-    ```
-    In the Dockerfile very first instruction is FROM, we give base image. In the above dockerfile we are getting a base image from Ubuntu
+```
+In the Dockerfile very first instruction is FROM, we give base image. In the above dockerfile we are getting a base image from Ubuntu
+
+
 ``
 
-- In what real scenarios have you used Docker?
+Q7. In what real scenarios have you used Docker?
+Docker Use cases:
+- 
 - Docker vs Hypervisor?
 - What are the advantages and disadvantages of using docker?
 - What is a Docker namespace?
